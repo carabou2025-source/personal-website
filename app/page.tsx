@@ -89,4 +89,60 @@ const Page = () => {
             </div>
 
             {/* Experience 3 */}
-            <div classNa
+            <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                <h3 className="text-2xl font-semibold text-emerald-700">
+                  IT Support & Data Coordinator
+                </h3>
+                <p className="text-gray-500 text-sm mt-1 md:mt-0">
+                  Tech Outreach Services | 2016 – 2018
+                </p>
+              </div>
+              <ul className="text-gray-700 list-disc list-inside space-y-1">
+                <li>Maintained and optimized database systems used across multiple departments.</li>
+                <li>Supported internal teams with troubleshooting, reporting, and automation tools.</li>
+                <li>Introduced cloud-based tools that reduced paperwork and increased collaboration.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <a
+              href="/resume.pdf"
+              className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-emerald-700 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Résumé
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="px-6 py-20 text-center bg-white border-t border-green-100">
+        <h2 className="text-3xl font-semibold mb-6 text-emerald-700">Get in Touch</h2>
+        <p className="text-lg mb-6 max-w-2xl mx-auto text-gray-700">
+          I’m always open to new opportunities, collaborations, or conversations
+          about creating solutions that make a difference.
+        </p>
+        <a
+          href="mailto:carabou2025@gmail.com"
+          className="inline-block text-xl text-white bg-emerald-600 hover:bg-emerald-700 px-6 py-3 rounded-lg shadow-md transition"
+        >
+          carabou2025@gmail.com
+        </a>
+      </section>
+
+      {/* Footer Section */}
+      <footer className="py-6 bg-emerald-700 text-green-50 text-center">
+        <p className="text-sm">
+          Built with ❤️ using Next.js & Tailwind CSS
+        </p>
+        <p className="text-sm mt-1">&copy; 2025 Josh Cramer</p>
+      </footer>
+    </div>
+  );
+};
+
+export default Page;
