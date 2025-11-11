@@ -3,7 +3,7 @@ const Page = () => {
     <div className="min-h-screen bg-green-50 text-gray-900">
       {/* Header Section */}
       <header className="text-center py-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white shadow-md">
-        <h1 className="text-5xl font-bold tracking-tight">Joshua Cramer</h1>
+        <h1 className="text-5xl font-bold tracking-tight">Joshua C. Cramer</h1>
         <p className="text-2xl mt-4 font-light">
           Bridging Technology and Human Impact
         </p>
