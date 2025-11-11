@@ -39,17 +39,17 @@ const Page = () => {
         <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
         <p className="text-lg mb-4">Feel free to reach out for collaborations, questions, or just to say hi!</p>
         <a
-          href="mailto:johndoe@example.com"
+          href="mailto:carabou2025@gmail.com"
           className="text-xl text-indigo-600 hover:underline"
         >
-          johndoe@example.com
+          carabou2025@gmail.com
         </a>
       </section>
 
       {/* Footer Section */}
       <footer className="py-4 bg-gray-800 text-white text-center">
         <p>Built with love using Next.js & Tailwind CSS</p>
-        <p>&copy; 2025 John Doe</p>
+        <p>&copy; 2025 Josh Cramer</p>
       </footer>
     </div>
   );
