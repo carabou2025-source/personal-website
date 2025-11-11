@@ -1,3 +1,5 @@
+"use client";
+
 const Page = () => {
   return (
     <div className="min-h-screen bg-green-50 text-gray-900">
@@ -115,4 +117,151 @@ const Page = () => {
 
           <div className="space-y-10">
             {/* CDL & Workforce Development */}
-            <div className="bg-green-50 shadow
+            <div className="bg-green-50 shadow-md rounded-xl p-6 hover:shadow-lg transition">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                <h3 className="text-2xl font-semibold text-emerald-700">
+                  CDL & Workforce Development Program Manager
+                </h3>
+                <p className="text-gray-500 text-sm mt-1 md:mt-0">
+                  Jericho Project — Brisbane, CA | Jun 2023 – May 2024
+                </p>
+              </div>
+              <ul className="text-gray-700 list-disc list-inside space-y-1">
+                <li>
+                  Directed CDL licensing, workforce placement, and compliance processes for program participants.
+                </li>
+                <li>
+                  Partnered with DMV and state agencies to streamline documentation and scheduling systems.
+                </li>
+                <li>
+                  Designed IT infrastructure improvements to enhance data security and efficiency.
+                </li>
+                <li>
+                  Mentored reentry participants, promoting successful workforce reintegration.
+                </li>
+              </ul>
+            </div>
+
+            {/* Program Coordinator */}
+            <div className="bg-green-50 shadow-md rounded-xl p-6 hover:shadow-lg transition">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                <h3 className="text-2xl font-semibold text-emerald-700">
+                  Program Coordinator / Case Manager
+                </h3>
+                <p className="text-gray-500 text-sm mt-1 md:mt-0">
+                  Community Employment Programs — San Francisco, CA | 2021 – 2023
+                </p>
+              </div>
+              <ul className="text-gray-700 list-disc list-inside space-y-1">
+                <li>
+                  Provided case management for reentry and employment program participants.
+                </li>
+                <li>
+                  Built secure databases to manage client records and track outcomes.
+                </li>
+                <li>
+                  Partnered with housing, recovery, and community services to improve participant success.
+                </li>
+              </ul>
+            </div>
+
+            {/* Software Engineer */}
+            <div className="bg-green-50 shadow-md rounded-xl p-6 hover:shadow-lg transition">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                <h3 className="text-2xl font-semibold text-emerald-700">
+                  Software Engineer / Systems Developer
+                </h3>
+                <p className="text-gray-500 text-sm mt-1 md:mt-0">
+                  Symitar — San Diego, CA | 2000 – 2002
+                </p>
+              </div>
+              <ul className="text-gray-700 list-disc list-inside space-y-1">
+                <li>
+                  Developed custom financial applications for credit unions using proprietary programming languages.
+                </li>
+                <li>
+                  Built transaction tracking and fraud prevention systems still in active use today.
+                </li>
+              </ul>
+            </div>
+
+            {/* Conversion Programmer */}
+            <div className="bg-green-50 shadow-md rounded-xl p-6 hover:shadow-lg transition">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
+                <h3 className="text-2xl font-semibold text-emerald-700">
+                  Conversion Programmer / Senior Consultant
+                </h3>
+                <p className="text-gray-500 text-sm mt-1 md:mt-0">
+                  Jack Henry & Associates — San Diego, CA | 2002 – 2007
+                </p>
+              </div>
+              <ul className="text-gray-700 list-disc list-inside space-y-1">
+                <li>
+                  Managed nationwide system conversions and database migrations for financial institutions.
+                </li>
+                <li>
+                  Built web-based loan application systems integrating XML, HTML, and JavaScript.
+                </li>
+                <li>
+                  Promoted for outstanding technical accuracy and client satisfaction.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education Section */}
+      <section className="px-6 py-20 bg-green-50 border-t border-green-100 text-center">
+        <h2 className="text-3xl font-semibold mb-6 text-emerald-700">
+          Education
+        </h2>
+        <div className="space-y-4 text-lg text-gray-700">
+          <p>
+            <strong>Bachelor’s Degree | Computer Information Science</strong> – Coleman College (2000 – 2002)
+          </p>
+          <p>
+            <strong>Community Health Worker Certificate</strong> – JRP Code Tenderloin (In Progress)
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="px-6 py-20 text-center bg-white border-t border-green-100">
+        <h2 className="text-3xl font-semibold mb-6 text-emerald-700">
+          Get in Touch
+        </h2>
+        <p className="text-lg mb-6 max-w-2xl mx-auto text-gray-700">
+          Open to collaborations, workforce initiatives, or IT consulting opportunities.
+        </p>
+
+        <div className="flex flex-col md:flex-row justify-center gap-4">
+          {/* Email Button */}
+          <a
+            href="mailto:carabou2025@gmail.com"
+            className="inline-block text-xl text-white bg-emerald-600 hover:bg-emerald-700 px-6 py-3 rounded-lg shadow-md transition"
+          >
+            ✉️ Email Josh
+          </a>
+
+          {/* Download Resume Button */}
+          <a
+            href="/JoshCramerResume.pdf"
+            download
+            className="inline-block text-xl text-emerald-700 border border-emerald-600 hover:bg-emerald-100 px-6 py-3 rounded-lg shadow-md transition"
+          >
+            📄 Download Résumé (PDF)
+          </a>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="py-6 bg-emerald-700 text-green-50 text-center">
+        <p className="text-sm">Built with ❤️ using Next.js & Tailwind CSS</p>
+        <p className="text-sm mt-1">&copy; 2025 Josh Cramer</p>
+      </footer>
+    </div>
+  );
+};
+
+export default Page;
